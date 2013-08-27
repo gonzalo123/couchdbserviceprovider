@@ -1,6 +1,6 @@
 {
-    "name":"gonzalo123/qrserviceprovider",
-    "description":"couchdb service provider using Doctrine",
+    "name":"gonzalo123/couchdbserviceprovider",
+    "description":"CouchDb service provider using Doctrine",
     "license":"MIT",
     "keywords":["couchdb", "Doctrine", "silex"],
 
