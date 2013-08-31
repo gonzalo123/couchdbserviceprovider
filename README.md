@@ -23,7 +23,6 @@ $app->register(new CouchDbServiceProvider(), [
 ]);
 
 $app->get("/", function() use ($app) {
-    /** @var CouchDBClient $cdb  */
     $c1 = $app['cdb']('main', 'database1')->findDocument('doc1')->body['name'];
     $c2 = $app['cdb']('main', 'database2')->findDocument('doc2')->body['name'];
 
